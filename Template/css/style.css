@@ -5,7 +5,7 @@ header
     width: 100%;
     height: 60px;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     font-family: "Gill Sans MT";
     text-align: center;
@@ -14,7 +14,7 @@ header
 aside
 {
     background: linear-gradient(blueviolet, deeppink);
-    height: 470px;
+    height: 100%;
     color: white;
     padding-left: 10px;
     margin: 0px;
@@ -35,6 +35,10 @@ a
     font-size: 16px;
     text-decoration-line: none;
 }
+a :hover
+{
+    text-decoration-line: underline;
+}
 li
 {
     list-style-type: square;
@@ -45,7 +49,7 @@ h2
     font-family: "Gill Sans MT";
     top: 60px;
     left: 330px;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
 }
 h1
@@ -55,13 +59,13 @@ h1
 #wrapper
 {
     overflow: scroll;
-    height: 563px;
+    height: 519px;
     padding-left: 20px;
     border: 5px solid black;
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
 
 }
 
@@ -73,9 +77,5 @@ h1
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(blueviolet, deeppink);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(rgb(101,23,200), rgb(183,21,138);
+    border-radius: 25px;
 }
