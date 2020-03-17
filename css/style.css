@@ -58,8 +58,10 @@ h1
 }
 #wrapper
 {
+    display: inline-block;
     overflow: scroll;
-    height: 519px;
+    height: 480px;
+    width: 1033px;
     padding-left: 20px;
     border: 5px solid black;
 }
@@ -78,4 +80,12 @@ h1
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(blueviolet, deeppink);
     border-radius: 25px;
+}
+footer
+{
+    background-color: #DC1BAB;
+    text-align: center;
+    font-family: "Gill Sans MT";
+    color: white;
+    padding-bottom: 1px;
 }

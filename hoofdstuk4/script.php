@@ -12,36 +12,38 @@
 // Engels - Mitrovic
 $courseName = "PHP";
 
+
 switch ($courseName)
 {
     case "Rekenen":
-        echo "voor het vak Rekenen heb je docent: Van Meer";
+        $teacherName = "Van Meer";
         break;
     case "L&B":
-        echo " voor het vak L&B heb je docent: Lambrechts";
+        $teacherName = "Lambrechts";
+        break;
+    case "Computertekenen":
+        $teacherName = "Van den Berg";
         break;
     case "Modelleren":
     case "ASP":
-        echo "voor het vak ASP heb je docent: Gijsbrechts";
+        $teacherName = "Gijsbrechts";
         break;
-    case "Computertekenen":
-        echo " voor het vak Computertekenen heb je docent: Van den Berg";
+    case "Digitale vaardigheden":
+        $teacherName ="Pielage";
+        break;
+    case "Nederlands":
+        $teacherName = "Rijswijk";
         break;
     case "Engels":
-        echo "voor het vak Engels heb je docent: Mitrovix";
+        $teacherName = "Mitrovix";
         break;
     case "Javascript":
     case "Database SQL":
-        echo "voor het vak Database SQL heb je docent: Van de Wetering";
-        break;
-    case "Nederlands":
-        echo "voor het vak Nederlands heb je docent: Rijswijk";
-        break;
-    case "Digitale vaardigheden":
-        echo "voor het vak Digitale vaardigheden heb je docent: Pielage";
+        $teacherName = "Van de Wetering";
         break;
     case "PHP":
-        echo "voor het vak PHP heb je docent: Evers";
+        $teacherName = "Evers";
         break;
 }
+echo  "voor het vak:".$courseName."Heb ik de leraar:". $teacherName;
 ?>
